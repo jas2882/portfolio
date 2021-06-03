@@ -1,0 +1,16 @@
+.three-three-container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .three-three-item {
+    width: 32%;
+    padding-bottom: 25%; /* Same as width, sets height */
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    position: relative;
+    border: 5px solid black;
+    background-color: rgb(72, 246, 252);
+  }
