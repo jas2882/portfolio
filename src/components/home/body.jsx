@@ -1,6 +1,6 @@
-import {ThreeThreeCard} from './card'
-import {Dropdown} from './dropdown'
-import {Showcase} from './showcase'
+import {ThreeThreeCard} from '../layouts/three-three.jsx';
+import {Dropdown} from '../buttons/dropdown.jsx';
+import {Showcase} from '../cards/showcase.jsx';
 
 export const Body = () => {
 
@@ -10,6 +10,7 @@ export const Body = () => {
             <ThreeThreeCard />
             <Dropdown />
             <Showcase />
+            
         </div>
     )
 }

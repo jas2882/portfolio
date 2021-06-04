@@ -1,0 +1,10 @@
+two (2) spaces indents, no tabs;
+ideally, 80-characters wide lines;
+properly written multi-line CSS rules;
+meaningful use of whitespace.
+
+To avoid any potential issue with character encoding,
+it is highly recommended to force UTF-8 encoding in the
+main stylesheet using the @charset directive. Make sure
+it is the very first element of the stylesheet and there
+is no character of any kind before it.
