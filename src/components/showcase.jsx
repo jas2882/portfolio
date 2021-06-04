@@ -1,17 +1,12 @@
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "./fontawesome";
+import "./fontawesome";
 
-export const Beverage = () => {
-  const coffee = faCoffee;
-  return (
-    <div>
-      <span className="fa-layers fa-fw">
-        <FontAwesomeIcon icon="square" color="green" />
-        <FontAwesomeIcon icon="check" inverse transform="shrink-6" />
-      </span>
+// see FontAwesomeIcon.js to add icons and see examples
 
-      <FontAwesomeIcon icon="coffee" symbol />
-      <FontAwesomeIcon icon="coffee" symbol="beverage-icon" />
-    </div>
-  );
-};
+export const Beverage = () => (
+  <div>
+    <FontAwesomeIcon icon="check-square" />
+    Your <FontAwesomeIcon icon="coffee" /> is hot and ready!
+  </div>
+);
