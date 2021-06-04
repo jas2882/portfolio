@@ -2,7 +2,7 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 .app-footer {
-    background-color: #24dd0c;
+    background-color: var(--primary-color);
     height: 6vh;
     display: flex;
     flex-direction: column;

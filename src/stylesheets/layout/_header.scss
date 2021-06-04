@@ -18,7 +18,7 @@
   }
   
   .app-header {
-    background-color: #c86fe4;
+    background-color: var(--primary-color);
     min-height: 64px;
     max-height: 72px;
     display: flex;
@@ -30,7 +30,7 @@
   }
   
   .App-link {
-    color: #61dafb;
+    color: var(--primary-offset);
   }
   
   @keyframes App-logo-spin {
