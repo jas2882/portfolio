@@ -1,12 +1,19 @@
-import ReactDOM from "react-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faCheckSquare, faCoffee);
-
+library.add(fab, faCheckSquare, faCoffee,);
 
 // examples
+
+// <FontAwesomeIcon
+//  icon={["fab", "github"]}
+//  className="fa-pulse" <-- animations go under class --
+//  rotation={90}
+//  flip="horizontal"
+//  size="lg"
+// /> 
+
 
 // <FontAwesomeIcon icon="coffee" symbol />
 // <FontAwesomeIcon icon="coffee" symbol="beverage-icon" />

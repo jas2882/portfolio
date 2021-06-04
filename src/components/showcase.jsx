@@ -1,12 +1,28 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./fontawesome";
+import "../fontawesome";
 
 // see FontAwesomeIcon.js to add icons and see examples
 
-export const Beverage = () => (
+export const Showcase = () => (
   <div>
-    <FontAwesomeIcon icon="check-square" />
-    Your <FontAwesomeIcon icon="coffee" /> is hot and ready!
+    <FontAwesomeIcon
+      id="github-icon"
+      icon={["fab", "github"]}
+      className="icon"
+      size="lg"
+    />
+    <FontAwesomeIcon
+      id="codepen-icon"
+      icon={["fab", "codepen"]}
+      className="icon"
+      size="lg"
+    />
+    <FontAwesomeIcon
+      id="linkedin-icon"
+      icon={["fab", "linkedin"]}
+      className="icon"
+      size="lg"
+    />
   </div>
 );
