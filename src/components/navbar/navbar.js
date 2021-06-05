@@ -1,5 +1,5 @@
 // import ThemeList from "../../Theme/ThemeBtn";
-import logo from '../../logo.svg'
+import logo from '../../assets/logo.svg';
 import React, {Fragment, useContext} from "react";
 import {Link} from "react-router-dom";
 import {ThemeContext} from '../../API/context'
