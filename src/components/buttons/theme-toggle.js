@@ -25,7 +25,7 @@ class ThemeToggle extends Component {
                 color: theme.primaryBg,
                 background: theme.primaryContrast,
               }}
-              className="icon-btn fa fa-adjust"
+              className="icon-btn icon fa fa-adjust"
             />
           </button>
         );}}
